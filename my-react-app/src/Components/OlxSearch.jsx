@@ -8,7 +8,7 @@ import { FaRegBell } from "react-icons/fa";
 
 const OlxSearch = () => {
     return (
-        <div className="frist-box">
+    <div className="frist-box">
         <div className="main-box">
             <div className="olx-title">Olx</div>
             <div className="india-search">
@@ -41,7 +41,14 @@ const OlxSearch = () => {
         <div className="second-box">
             <div className="all-categories">
                 <div className="all">ALL CATEGORIES</div>
-                <div className="dropdownn">hh</div>
+                <div className="dropdownn"><RiArrowDropDownLine /></div>
+                <div className="car">Cars</div>
+                <div className="motor">Motorcycles</div>
+                <div className="motor">Mobile Phones</div>
+                <div className="motor">For Sale:Houses & Apartments</div>
+                <div className="motor">Scooters</div>
+                <div className="motor">Commercial & Other Vechicles</div>
+                <div className="motor">For Rent:Houses & Apartments</div>
             </div>
         </div>
         </div>
